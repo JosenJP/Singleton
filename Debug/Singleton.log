@@ -1,0 +1,8 @@
+﻿  Option1.cpp
+  Main.cpp
+  Generating Code...
+Option1.obj : error LNK2019: unresolved external symbol __imp__pthread_mutex_lock referenced in function "public: static class Singleton1 * __cdecl Singleton1::GetInstance(void)" (?GetInstance@Singleton1@@SAPAV1@XZ)
+Option1.obj : error LNK2019: unresolved external symbol __imp__pthread_mutex_unlock referenced in function "public: static class Singleton1 * __cdecl Singleton1::GetInstance(void)" (?GetInstance@Singleton1@@SAPAV1@XZ)
+Option1.obj : error LNK2001: unresolved external symbol "private: static struct pthread_mutex_t_ * Singleton1::m_Mutex" (?m_Mutex@Singleton1@@0PAUpthread_mutex_t_@@A)
+H:\OpenSource\pthreads\lib\pthreadVC2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+H:\Coding\C++\Singleton\Debug\Singleton.exe : fatal error LNK1120: 3 unresolved externals
