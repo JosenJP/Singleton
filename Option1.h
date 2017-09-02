@@ -1,5 +1,4 @@
 #pragma once
-//#define HAVE_STRUCT_TIMESPEC
 #include <pthread.h>
 
 class Singleton1

@@ -21,9 +21,21 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Option2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Option3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Option1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

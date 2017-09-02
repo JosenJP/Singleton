@@ -1,7 +1,7 @@
 #include"Option1.h"
 
 Singleton1* Singleton1::m_pInstance = nullptr;
-pthread_mutex_t Singleton1::m_Mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t Singleton1::m_Mutex = PTHREAD_MUTEX_INITIALIZER; //Initialize the Mutex
 
 Singleton1::~Singleton1()
 {
